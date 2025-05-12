@@ -1,0 +1,173 @@
+/* Core CSS Properties */
+/* 1. Text and Font */
+
+ #div1 {
+    color: white;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 2cm;
+    text-align: center;
+    text-decoration:underline;
+    text-transform: capitalize;
+    letter-spacing: .25cqi;
+    word-spacing: 0.25cqi;
+    text-shadow: 20vh;
+
+}
+
+/* Box Model */
+
+#div1 {
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+/* Background */
+
+#div1 {
+    background-color: blueviolet;
+    background-image: url(pexels-pixabay-268533.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 500px;
+    background-attachment:local;
+}
+
+/* Layout */
+
+#div1{
+    display: block;
+    position: relative;
+    top: 50px; right: 50px; left: 50px; bottom: 50px;
+    float: right;
+    clear:left;
+    overflow:hidden;
+    z-index:auto;
+} 
+
+/* Flexbox */
+
+#div1 {
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    flex-flow:wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: end;
+    align-self: flex-start;
+    flex: 1000vh;
+    flex-grow: calc(100vh-50vh);
+    flex-shrink: initial;
+    flex-basis: 70%;
+
+} 
+
+/* Grid */
+#div1{
+    display: grid;
+    grid-template-columns:repeat(200);
+    grid-template-rows:max-content;
+    grid-template-areas: inherit;
+    grid-column:auto;
+    grid-row:span;
+    grid-area: span;
+    grid-gap: 20px;
+    justify-items:center;
+    align-items: center;
+    justify-content: center;
+    align-content: first baseline;
+}
+
+/* Positioning */
+
+#div1{
+    position: static;
+    position: relative;
+    position: fixed;
+    position: absolute;
+    position: sticky;
+
+}
+
+
+/* Transforms */
+
+#div1{
+    transform: rotate(45deg);
+    transform-origin:center;
+    animation: raja 10s linear 2s infinite reverse;
+}
+@keyframes raja {
+    0% {
+        width: 20px;
+    }
+    50%{
+        width: 80px;
+    }
+    100%{
+        width: 200px;
+    }
+}
+/* List */ 
+
+.list {
+    background-color: aqua;
+    font-size: 50px;
+    list-style:circle;
+    list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: url(pexels-pixabay-268533.jpg);
+}
+
+
+/* Table */
+
+.list {
+    border: 2px solid;
+    border-collapse: separate;
+    border-spacing: 50px;
+    caption-side: bottom;
+    empty-cells: show;
+    table-layout: fixed;
+}
+/*	Pseudo-classes and Pseudo-elements */ 
+ .list1:hover {
+    color: rgb(241, 86, 25);
+    cursor: pointer;
+ }
+ .list:focus {
+    background-color: rgb(46, 238, 132);
+
+ }
+ .list:active{
+    background-color: blue;
+ }
+ .list:first-child {
+    background-color: chartreuse;
+    background-image: url(pexels-pixabay-268533.jpg);
+    color: white;
+ }
+ .list:last-child{
+
+    color: white;
+
+ }
+ .list:nth-child() {
+    border: 50px dotted;
+
+ }
+ .list:before {
+    color: aquamarine;
+
+ }
+ .list:after {
+    background-image: url(pexels-pixabay-268533.jpg);
+
+ }

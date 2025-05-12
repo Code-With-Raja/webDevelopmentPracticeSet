@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Object</title>
+    <style>
+        #movingObject {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="movingObject"></div>
+
+    <script>
+        let object = document.getElementById('movingObject');
+        let position = 0;
+        let direction = 1;  // 1 means right, -1 means left
+
+        function moveObject() {
+            position += 2 * direction;  // Change 2 to whatever speed you want
+            object.style.left = position + 'px';
+
+            // Reset when reaching the right side of the screen
+            if (position > window.innerWidth - object.offsetWidth || position < 0) {
+                direction *= -1;  // Change direction (bounce back)
+            }
+        }
+
+        // Use setInterval or requestAnimationFrame for continuous movement
+        setInterval(moveObject, 20); // Moves object every 20 milliseconds
+    </script>
+</body>
+</html>
+
+

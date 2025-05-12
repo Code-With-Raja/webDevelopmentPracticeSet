@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Table Data Total Calculation</title>
+  <style>
+    table {
+      width: 50%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid black;
+    }
+
+    input[type="text"], input[type="number"] {
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Dynamic Table and Total Calculation</h2>
+
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Item 1</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Item 2</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Item 3</td>
+        <td>30</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+
+  <!-- Input fields for adding new items -->
+  <label for="item">Item:</label>
+  <input type="text" id="item" placeholder="Enter item name">
+
+  <label for="price">Price:</label>
+  <input type="number" id="price" placeholder="Enter price" min="0">
+
+  <button onclick="addItem()">Add Item</button>
+
+  <h3>Total Price: <span id="total">60</span></h3>
+
+  <script>
+    function calculateTotal() {
+      const table = document.getElementById('dataTable');
+      let total = 0;
+
+      // Loop through the table rows (ignoring the header)
+      for (let i = 1; i < table.rows.length; i++) {
+        const priceCell = table.rows[i].cells[1];
+        const price = parseFloat(priceCell.innerText);
+
+        // If price is a valid number, add to total
+        if (!isNaN(price)) {
+          total += price;
+        }
+      }
+
+      // Update total display
+      document.getElementById('total').innerText = total;
+    }
+
+    function addItem() {
+      const item = document.getElementById('item').value;
+      const price = parseFloat(document.getElementById('price').value);
+
+      // Basic validation
+      if (item.trim() === '' || isNaN(price) || price < 0) {
+        alert('Please enter a valid item name and price.');
+        return;
+      }
+
+      // Get the table's tbody
+      const tableBody = document.querySelector('#dataTable tbody');
+
+      // Create a new row
+      const newRow = document.createElement('tr');
+
+      // Create the item cell
+      const itemCell = document.createElement('td');
+      itemCell.innerText = item;
+      newRow.appendChild(itemCell);
+
+      // Create the price cell
+      const priceCell = document.createElement('td');
+      priceCell.innerText = price.toFixed(2);  // Format price with two decimal places
+      newRow.appendChild(priceCell);
+
+      // Append the new row to the table
+      tableBody.appendChild(newRow);
+
+      // Clear input fields
+      document.getElementById('item').value = '';
+      document.getElementById('price').value = '';
+
+      // Recalculate the total
+      calculateTotal();
+    }
+
+    // Initial calculation of the total when the page loads
+    calculateTotal();
+  </script>
+
+</body>
+</html>

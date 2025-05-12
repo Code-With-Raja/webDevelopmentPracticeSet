@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background-color: blue;
+    
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+
+.year {
+    justify-content: center;
+    display: flex;
+    font-size: 70px;
+    color: white;
+
+}
+.countdown {
+    display: flex;
+     justify-content: center;
+     gap: 50px;
+     font-size: 60px;
+     background-color: aqua;
+     color: white;
+     margin-top: 20px;
+     width: 500px;
+     height: 100px;
+     margin-left: 20%;
+     
+}

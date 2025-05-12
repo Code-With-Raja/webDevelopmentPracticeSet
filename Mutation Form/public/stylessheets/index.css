@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    border: .2rem double black;
+    border-radius: .5rem;
+    margin: 5rem;
+    background-color: burlywood;
+
+}
+.back{
+    display: flex;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: blue;
+}
+a{
+    text-decoration: none;
+
+}
+.goto{
+    display: flex;
+   
+    
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: blue;
+   
+    margin-left: 90rem;
+
+}
+
+
+.applicantDetails {
+    position: relative;
+    
+}
+
+
+h1 {
+
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: -2rem;
+}
+
+h2 {
+     
+    margin-left: 5rem;
+    font-size: 3rem;
+    font-weight: bolder;
+   
+}
+
+label {
+    display: flex;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+
+}
+
+select {
+    display: flex;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    background-color: burlywood;
+
+}
+
+input {
+    display: flex;
+    margin-top: -1.8rem;
+    margin-left: 25rem;
+    border: none;
+    border-radius: .2rem;
+    width: 20rem;
+    height: 2rem;
+    font-size: 1.2rem;
+
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 5rem;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Delivary Page</title>
+</head>
+<body>
+    <div class="main flex w-full h-screen bg-zinc-900">
+        <form class=" flex mt-[5rem] ml-[5rem] w-[100rem] h-[20rem] bg-zinc-500 text-white items-center rounded-md"> 
+            <input class="bg-zinc-800 ml-5 rounded-md h-[3rem] text-2xl" type="date" placeholder="Date here" id="inputdate">
+            <input class="bg-zinc-800 ml-5 w-[20rem] h-[3rem] text-2xl rounded-md" type="text" placeholder="Name Here" id="inputname">
+            <input class="bg-zinc-800 ml-5 h-[3rem] text-2xl rounded-md"t type="text" placeholder="Address Here" id="inputaddress">
+            <input class="bg-zinc-800 ml-5 h-[3rem] text-2xl rounded-md" type="number" placeholder="Debit" id ="inputdebit">
+            <input class="bg-zinc-800 ml-5 h-[3rem] text-2xl rounded-md" type="number" placeholder="Credit" id ="inputcredit">
+            <select class="bg-zinc-800 ml-5 h-[3rem] text-2xl rounded-md" name="select" id="inputremarks" >
+                <option  value=""> </option>
+                <option value="Paid">Paid</option>
+                <option value="Due">Due</option>
+            </select>
+
+            <div class=" flex bg-indigo-600 w-[8rem] text-2xl rounded-md h-[3rem] mt-[10rem] ml-[-50rem] items-center justify-center hover:cursor-pointer" id="submit">Create</div>
+
+            
+
+        </form>
+        <div class="hidden" id="detail">
+        <div class="detail flex relative w-[30rem] h-[20rem] bg-indigo-500 mt-[30rem] ml-[-60rem] rounded-md ">
+            <h1 class=" flex absolute text-3xl font-bold ml-[6rem]">Deed Delivary Details</h1>
+            <div class=" flex absolute font-bold text-xl mt-[3rem] ml-[18rem] "> Date:</div>
+            <span class=" absolute mt-[3rem] ml-[22rem]" id="date"> </span >
+            <div class=" flex absolute font-bold text-xl mt-[3rem] "> Name :</div>
+            <span class=" absolute mt-[3rem] ml-[8rem]" id="name"> </span >
+            <div class=" flex absolute font-bold  text-xl  mt-[6rem] "> Address :</div>
+            <span class="absolute mt-[6rem] ml-[8rem]" id="address"> </span>
+            <div class="absolute font-bold text-xl  mt-[9rem] "> Debit :</div>
+            <span class="absolute mt-[9rem] ml-[8rem] " id="debit"> </span>
+            <div class="absolute font-bold text-xl  mt-[12rem]"> credit :</div>
+            <span class="absolute mt-[12rem] ml-[8rem] " id="credit"> </span>
+            <div class="due absolute font-bold text-xl mt-[12rem] ml-[18rem]" id="duePaid">Due:</div>
+            <span class="due absolute mt-[12rem] ml-[22em] " id="due"></span>
+            <div class="absolute font-bold text-xl  mt-[15rem]"> Remarks :</div> 
+            <span class=" absolute mt-[15rem] ml-[8rem] " id="remarks"> </span>
+        </div> <!--detail end-->
+    </div>
+
+
+       
+    </div> <!--main end-->
+    
+
+
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,153 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: rgb(157, 95, 201);
+    display: flex;
+    position: absolute;
+    width: 80vh;
+    height: 50vh;
+    border-radius: .50rem; 
+    box-shadow: .40rem .4rem .4rem rgba(0, 0, 0, .70);     
+    font-weight: bolder;
+     
+    
+}
+.head {
+    margin: 0;
+    padding: 0;
+    color: brown;  
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-left: 15rem;
+    font-size: 1.5rem;
+
+}
+.item {
+    display: flex;
+    position: absolute;
+    margin-top: 7rem;
+    font-size: 2.5rem;
+    margin-left: 5rem;
+}
+.qty {
+    display: flex;
+    position: absolute;
+    margin-top: 12rem;
+    font-size: 2.5rem;
+    margin-left: 5rem;
+}
+.item1 {
+    display: flex;
+    position: absolute;
+    margin-top: 7.8rem;
+    font-size: 1.5rem;
+    width: 25rem;
+    height: 2rem;
+    margin-left: 12rem;
+    border-radius: .40rem;
+    border: none;
+}
+.qty1 {
+    display: flex;
+    position: absolute;
+    margin-top: 12rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    margin-left: 15rem;
+    border-radius: .40rem;
+}
+.submit  {
+    display: flex;
+    position: absolute;
+    background-color: rgb(226, 11, 180);
+    width: 5rem;
+    height: 2.5rem;
+    margin-top: 20rem;
+    margin-left: 20rem;
+    border-radius: .80rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#option {
+    display: flex;
+    position: absolute;
+    width: 5rem;
+    height: 2rem;
+    margin-top: 12rem;
+    margin-left: 26rem;
+    border-radius: .40rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#table {
+    margin-top: 40rem;
+    width: 100%;
+}
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+caption {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+ 
+
+th, td {
+    padding: 10px 5px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 20px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+thead  th {
+    position: sticky;
+    top: 0;
+    
+    z-index: 1;
+    border-right : 1px solid #ddd;
+}
+.date{
+    display: flex;
+    position: absolute;
+    margin-top: 5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    margin-left: 35rem;
+    border-radius: .40rem;
+
+}

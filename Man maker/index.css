@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+
+
+.container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.head{
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+}
+.eye1 {
+    border: 2px solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+.Eball1{
+    border: 5px solid;
+    border-radius: 100%;
+    margin-top: 10px;
+
+}
+.eye2 {
+    border: 2px solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-top: 60px;
+    margin-left: 60px;
+
+}
+.Eball2{
+    border: 5px solid;
+    border-radius: 100%;
+    margin-top: 10px;
+
+}
+
+.nose {
+    display: flex;
+    border: 2px solid;
+    border-radius: 30px 2px 50px 40px;
+    width: 3px;
+    height: 30px;
+    margin-top: 65px;
+    margin-left: -60px;
+
+}
+.N1{
+    width: 7px;
+    border: 1px solid;
+    height: 5px;
+    border-radius: 100%;
+    margin-top: 28px;
+    margin-left: -8px;
+    display: flex;
+    position: relative;
+     
+}
+.N1-1{
+    width: .80px;
+    height: 30px;
+    background-color: black;
+     margin-top: -30px;
+     margin-left: 3px;
+     transform: rotate(10deg);
+}
+.N2{
+    display: flex;
+    position: absolute;
+    width: 7px;
+    border: 1px solid;
+    height: 5px;
+    border-radius: 100%;
+    margin-top: 28px;
+    margin-left: 2px
+}
+.N2-1{
+    width: .80px;
+    height: 30px;
+    background-color: black;
+     margin-top: -29px;
+     margin-left: 4px;
+     transform:rotate(171deg)
+      
+}
+
+.mouth {
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 40px;
+    height: 3px;
+    margin-top: 120px;
+    margin-left: -25px;
+
+}

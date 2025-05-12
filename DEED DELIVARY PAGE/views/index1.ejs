@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+    </style>
+    <link rel="stylesheet" href=" /stylesheets/index1.css">
+</head>
+
+<body>
+    <div class="container"> <a href="/">Go to Home Page</a></div>
+    <div class="main-container">
+        <% if(users.length>0) {%>
+    <% users.forEach(function(user){%>
+        <div class="mainpage">
+        
+
+            <div class="particulars">Particulars</div>
+            <div class="date">Date:- <div>
+                    <%=user.date %>
+            </div>
+            </div>
+            <div class="name">
+                <%= user.name %>
+            </div>
+            <div class="address">
+                <%= user.address %>
+            </div>
+            <div class="debit">Debit <div>
+                    <%= user.debit %>
+                </div>
+            </div>
+            <div class="credit">Credit <div>
+                    <%= user.credit %>
+                </div>
+            </div>
+            <div class="status">Status <div>
+                    <%= user.select %>
+                </div>
+            </div>
+
+            <div class="edit-delete">
+                <a href="/edit/<%= user._id %>">Edit</a>
+                <a href="/delete/<%= user._id %>">Delete</a> 
+            </div>
+
+        </div>
+
+
+
+         
+        <%}) %>
+
+
+        <% } else {%>
+            <div class="notYet">No user yet </div>
+
+
+        <%} %>
+
+    </div>
+
+
+
+
+
+
+
+
+
+            <script src=" /Javascripts/index1.js"></script>
+
+
+</body>
+
+</html>

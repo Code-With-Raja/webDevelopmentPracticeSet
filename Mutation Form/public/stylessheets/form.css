@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ 
+
+
+.img {
+    display: flex;
+    border: .2rem solid black;
+    width: 8rem;
+    height: 10rem;
+    margin-left: 100rem;
+}
+
+ 
+
+h2 {
+    display: flex;
+    position: absolute;
+    margin-left: -40rem;
+    font-size: 2rem;
+
+}
+/* .applicantDetails{
+     
+    flex-wrap: wrap;
+    display: flex;
+     
+
+
+}
+
+.name{
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: -35rem;
+    margin-top: 8rem;
+    font-weight: bold;
+}
+.Gname{
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: -25rem;
+    margin-top: 10rem;
+    font-weight: bold;
+}
+.address{
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: -25rem;
+    margin-top: 12rem;
+    font-weight: bold;
+} */
+
+
+
+
+
+
+
+
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    width: 20px;
+}
+
+th {
+    background-color: #909790;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+tfoot {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tfoot td {
+    border-top: 2px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+thead  th {
+    position: sticky;
+    top: 0;
+    
+    z-index: 1;
+    border-right : 1px solid #ddd;
+}
+tbody td {
+    border-right : 1px solid #ddd;
+
+}
+.dotted{
+    font-weight: bolder;
+    margin-top: 10rem;
+    margin-left: 70rem;
+}
+.sign{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: 70rem;
+}
+
+
+ 
+
+ 
+
+
+ 

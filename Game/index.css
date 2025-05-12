@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    overflow: hidden;
+
+
+}
+
+#bugs{
+    width:50px;
+    position:absolute;
+    top: 100vh;
+    left: 50%;
+    transition: top 0.1s left 0.1s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 50px; 
+
+} 
+#bugs1{
+    width:50px;
+    position:absolute;
+    top: 100vh;
+    left: 10%;
+    transition: top 0.1s left 0.1s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 50px; 
+
+} 
+#bugs2{
+    width:50px;
+    position:absolute;
+    top: 100vh;
+    left: 30%;
+    transition: top 0.1s left 0.1s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 50px; 
+
+} 
+#bugs3{
+    width:50px;
+    position:absolute;
+    top: 100vh;
+    left: 70%;
+    transition: top 0.1s left 0.1s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 50px; 
+
+} 
+#bugs4{
+    width:50px;
+    position:absolute;
+    top: 100vh;
+    left: 90%;
+    transition: top 0.1s left 0.1s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 50px; 
+
+}
+
+#coffee{
+    width:50px;
+    position:absolute;
+    top: 100vh;
+    left: 20%;
+    transition: top 0.1s left 0.1s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 50px; 
+
+} 
+#coffee1{
+    width:50px;
+    position:absolute;
+    top: 100vh;
+    left: 40%;
+    transition: top 0.1s left 0.1s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 50px; 
+
+} 
+#coffee2{
+    width:50px;
+    position:absolute;
+    top: 100vh;
+    left: 60%;
+    transition: top 0.1s left 0.1s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 50px; 
+
+}
+#coffee3{
+    width:50px;
+    position:absolute;
+    top: 100vh;
+    left: 80%;
+    transition: top 0.1s left 0.1s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 50px; 
+
+}  
+
+ 
+

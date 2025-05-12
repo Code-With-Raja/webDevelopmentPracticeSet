@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show/Hide Letters Example</title>
+    <style>
+        .hidden-text {
+            display: none;
+        }
+
+        .more-btn {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .text-container {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="text-container">
+        <span id="mainText">This is an example sentence with some hidden text.</span>
+        <span id="hiddenText" class="hidden-text"> Here is the hidden part!</span>
+        <span id="moreBtn" class="more-btn">Show More</span>
+    </div>
+
+    <script>
+        const hiddenText = document.getElementById("hiddenText");
+        const moreBtn = document.getElementById("moreBtn");
+
+        moreBtn.addEventListener("click", function() {
+            if (hiddenText.style.display === "none") {
+                hiddenText.style.display = "inline";
+                moreBtn.textContent = "Show Less";
+            } else {
+                hiddenText.style.display = "none";
+                moreBtn.textContent = "Show More";
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+

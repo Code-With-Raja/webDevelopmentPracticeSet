@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Schedule</title>
+    <link rel="stylesheet" href="/stylessheets/index.css">
+</head>
+<body>
+    <form action="">
+      <a href="/ParticularsOfTransferer">  <div class="back">Back</div> </a>
+      <a href="/form"> <div class="goto">GoTo</div> </a> 
+        <h1>LAND SCHEDULE FOR WHICH MUTATION SOUGHT FOR </h1>
+        <div class="landSchedule">
+          
+
+            <label for=""> (A) DISTRICT :- </label>
+            <!--District List--><select name="lstDistrictCode1" tabindex="1" id="lstDistrictCode1" class="form-control"
+                style="margin-top: -2rem; margin-left: 20rem;">
+                <option value="-1">---Selection---</option>
+                <option value="01" style="color: green">[ 01 ] BANKURA</option>
+                <option value="02" style="color: green">[ 02 ] PURBA BARDHAMAN</option>
+                <option value="03" style="color: green">[ 03 ] BIRBHUM</option>
+                <option value="04" style="color: green">[ 04 ] DARJEELING</option>
+                <option value="05" style="color: green">[ 05 ] HOWRAH</option>
+                <option value="06" style="color: green">[ 06 ] HOOGHLY</option>
+                <option value="07" style="color: green">[ 07 ] JALPAIGURI</option>
+                <option value="08" style="color: green">[ 08 ] Cooch Behar</option>
+                <option value="09" style="color: green">[ 09 ] MALDA</option>
+                <option value="10" style="color: green">[ 10 ] PASCHIM MEDINIPUR</option>
+                <option value="11" style="color: green">[ 11 ] PURBA MEDINIPUR</option>
+                <option value="12" style="color: green">[ 12 ] MURSHIDABAD</option>
+                <option value="13" style="color: green">[ 13 ] NADIA</option>
+                <option value="14" style="color: green">[ 14 ] PURULIA</option>
+                <option value="15" style="color: green">[ 15 ] NORTH 24 PARGANAS</option>
+                <option value="16" style="color: green">[ 16 ] SOUTH 24 PARGANAS</option>
+                <option value="17" style="color: green">[ 17 ] DAKSHIN DINAJPUR</option>
+                <option value="18" style="color: green">[ 18 ] UTTAR DINAJPUR</option>
+                <option value="19" style="color: green">[ 19 ] Kolkata</option>
+                <option value="20" style="color: green">[ 20 ] ALIPURDUAR</option>
+                <option value="21" style="color: green">[ 21 ] KALIMPONG</option>
+                <option value="22" style="color: green">[ 22 ] JHARGRAM</option>
+                <option value="23" style="color: green">[ 23 ] PASCHIM BARDHAMAN</option>
+            </select> <!--End District List-->
+
+            <label for=""> (B) POLICE STATION :- </label>
+            <select name="" id="select0" style="margin-top: -2rem; margin-left: 22rem;">
+                <option value="-1">---Selection---</option>
+                <option value="-1">---Selection---</option>
+            </select>
+
+            <!--Bankura Dist Block--> <select name="lstBlockCode1" id="lstBlockCode1" class="form-control"
+                style=" display: none;  margin-top: -2rem; margin-left: 22rem;">
+                <option value="-1_NEW">---Selection---</option>
+                <option value="01_NEW" style="color: green">[ 01 ] BANKURA - I</option>
+                <option value="02_NEW" style="color: green">[ 02 ] BANKURA - II</option>
+                <option value="03_NEW" style="color: green">[ 03 ] CHATNA</option>
+                <option value="04_NEW" style="color: green">[ 04 ] SALTORA</option>
+                <option value="05_NEW" style="color: green">[ 05 ] MEJHIA</option>
+                <option value="06_NEW" style="color: green">[ 06 ] GANGAJALGHATI</option>
+                <option value="07_NEW" style="color: green">[ 07 ] BARJORA</option>
+                <option value="08_NEW" style="color: green">[ 08 ] ONDA</option>
+                <option value="09_NEW" style="color: green">[ 09 ] TALDANGRA</option>
+                <option value="10_NEW" style="color: green">[ 10 ] SIMLAPAL</option>
+                <option value="11_NEW" style="color: green">[ 11 ] KHATRA</option>
+                <option value="12_NEW" style="color: green">[ 12 ] HIRBANDH</option>
+                <option value="13_NEW" style="color: green">[ 13 ] INDPUR</option>
+                <option value="14_NEW" style="color: green">[ 14 ] RAIPUR - I</option>
+                <option value="15_NEW" style="color: green">[ 15 ] RAIPUR - II</option>
+                <option value="16_NEW" style="color: green">[ 16 ] RANIBANDH</option>
+                <option value="17_NEW" style="color: green">[ 17 ] BISHNUPUR</option>
+                <option value="18_NEW" style="color: green">[ 18 ] JOYPUR</option>
+                <option value="19_NEW" style="color: green">[ 19 ] KOTOLPUR</option>
+                <option value="20_NEW" style="color: green">[ 20 ] SONAMUKHI</option>
+                <option value="21_NEW" style="color: green">[ 21 ] PATRASHYAR</option>
+                <option value="22_NEW" style="color: green">[ 22 ] INDUS</option>
+            </select> <!--End Bankura Dist Block-->
+
+
+            <label for=""> (C) MOUZA NAME WITH J.L. NO. :- </label>
+            <select name="" id="select1" style="margin-top: -2rem; margin-left: 30rem;">
+                <option value="-1">---Selection---</option>
+                <option value="-1">---Selection---</option>
+            </select>
+            <!--Indas Block Mouza --> <select name="lstMouzaList" id="lstMouzaList" class="form-control"
+                style="display: none; margin-top: -2rem; margin-left: 30rem;">
+                <option value="-1">---Selection---</option>
+                <option value="001" style="color: green">[ 001 ] Bhagitpur</option>
+                <option value="002" style="color: green">[ 002 ] Somsar</option>
+                <option value="003" style="color: green">[ 003 ] Palashdanga</option>
+                <option value="004" style="color: green">[ 004 ] Kumna</option>
+                <option value="005" style="color: green">[ 005 ] Gopalnagar</option>
+                <option value="006" style="color: green">[ 006 ] Uttarkhanda</option>
+                <option value="007" style="color: green">[ 007 ] Rol</option>
+                <option value="008" style="color: green">[ 008 ] Chichinga</option>
+                <option value="009" style="color: green">[ 009 ] Fatika</option>
+                <option value="010" style="color: green">[ 010 ] Durgajal</option>
+                <option value="011" style="color: green">[ 011 ] Padua</option>
+                <option value="012" style="color: green">[ 012 ] Adpara Kumrul</option>
+                <option value="013" style="color: green">[ 013 ] Khoshbag</option>
+                <option value="014" style="color: green">[ 014 ] Mirzapur</option>
+                <option value="015" style="color: green">[ 015 ] Haripur</option>
+                <option value="016" style="color: green">[ 016 ] Raypara</option>
+                <option value="017" style="color: green">[ 017 ] Sawntari</option>
+                <option value="018" style="color: green">[ 018 ] Nandipara</option>
+                <option value="019" style="color: green">[ 019 ] Jinkara</option>
+                <option value="020" style="color: green">[ 020 ] Srirampur</option>
+                <option value="021" style="color: green">[ 021 ] Pratapmath</option>
+                <option value="022" style="color: green">[ 022 ] Belbandi</option>
+                <option value="023" style="color: green">[ 023 ] Kapsit</option>
+                <option value="024" style="color: green">[ 024 ] Awasnara</option>
+                <option value="025" style="color: green">[ 025 ] Bishnubati</option>
+                <option value="026" style="color: green">[ 026 ] Sripur</option>
+                <option value="027" style="color: green">[ 027 ] Heytnagar</option>
+                <option value="028" style="color: green">[ 028 ] Maheshpur</option>
+                <option value="029" style="color: green">[ 029 ] Meral</option>
+                <option value="030" style="color: green">[ 030 ] Cakmeral</option>
+                <option value="031" style="color: green">[ 031 ] Srikara</option>
+                <option value="032" style="color: green">[ 032 ] Gangabati</option>
+                <option value="033" style="color: green">[ 033 ] Mourai</option>
+                <option value="034" style="color: green">[ 034 ] Bhagabanbati</option>
+                <option value="035" style="color: green">[ 035 ] Nunduri</option>
+                <option value="036" style="color: green">[ 036 ] Bajitpur</option>
+                <option value="037" style="color: green">[ 037 ] Bangalcak</option>
+                <option value="038" style="color: green">[ 038 ] Pachimsrirampur</option>
+                <option value="039" style="color: green">[ 039 ] Patraganti</option>
+                <option value="040" style="color: green">[ 040 ] Kalagram</option>
+                <option value="041" style="color: green">[ 041 ] Sahishnara</option>
+                <option value="042" style="color: green">[ 042 ] Pantari</option>
+                <option value="043" style="color: green">[ 043 ] Tatulmuri</option>
+                <option value="044" style="color: green">[ 044 ] Chandpur</option>
+                <option value="045" style="color: green">[ 045 ] Sigerbandh</option>
+                <option value="046" style="color: green">[ 046 ] Simulia</option>
+                <option value="047" style="color: green">[ 047 ] Bagmari</option>
+                <option value="048" style="color: green">[ 048 ] Santra</option>
+                <option value="049" style="color: green">[ 049 ] Rasulpur</option>
+                <option value="050" style="color: green">[ 050 ] keneti</option>
+                <option value="051" style="color: green">[ 051 ] Panckona</option>
+                <option value="052" style="color: green">[ 052 ] Amrul</option>
+                <option value="053" style="color: green">[ 053 ] Abdulpur</option>
+                <option value="054" style="color: green">[ 054 ] Karisunda</option>
+                <option value="055" style="color: green">[ 055 ] Paharpur</option>
+                <option value="056" style="color: green">[ 056 ] Fatepur</option>
+                <option value="057" style="color: green">[ 057 ] Sanpura</option>
+                <option value="058" style="color: green">[ 058 ] Jagaldip</option>
+                <option value="059" style="color: green">[ 059 ] Baragobindapur</option>
+                <option value="060" style="color: green">[ 060 ] Thakurani Puskurini</option>
+                <option value="061" style="color: green">[ 061 ] Dasharathbati</option>
+                <option value="062" style="color: green">[ 062 ] Karardanga</option>
+                <option value="063" style="color: green">[ 063 ] Thakuranidighi</option>
+                <option value="064" style="color: green">[ 064 ] Dharampur</option>
+                <option value="065" style="color: green">[ 065 ] Carigram</option>
+                <option value="066" style="color: green">[ 066 ] Indas</option>
+                <option value="067" style="color: green">[ 067 ] Krishnabati</option>
+                <option value="068" style="color: green">[ 068 ] Baikunthapur</option>
+                <option value="069" style="color: green">[ 069 ] Dibakarbati</option>
+                <option value="070" style="color: green">[ 070 ] Birashimul</option>
+                <option value="071" style="color: green">[ 071 ] Sankrol</option>
+                <option value="072" style="color: green">[ 072 ] Shuripuskarini</option>
+                <option value="073" style="color: green">[ 073 ] Dhamur</option>
+                <option value="074" style="color: green">[ 074 ] Manoharpur</option>
+                <option value="075" style="color: green">[ 075 ] Saspur</option>
+                <option value="076" style="color: green">[ 076 ] Gopalpur</option>
+                <option value="077" style="color: green">[ 077 ] Cakrubia</option>
+                <option value="078" style="color: green">[ 078 ] Khatra</option>
+                <option value="079" style="color: green">[ 079 ] Arapur</option>
+                <option value="080" style="color: green">[ 080 ] Banberia</option>
+                <option value="081" style="color: green">[ 081 ] Patan</option>
+                <option value="082" style="color: green">[ 082 ] Narayanpur</option>
+                <option value="083" style="color: green">[ 083 ] Haldi</option>
+                <option value="084" style="color: green">[ 084 ] Berghosh</option>
+                <option value="085" style="color: green">[ 085 ] Banki</option>
+                <option value="086" style="color: green">[ 086 ] Chotogobindapur</option>
+                <option value="087" style="color: green">[ 087 ] Adilpur</option>
+                <option value="088" style="color: green">[ 088 ] Mandra</option>
+                <option value="089" style="color: green">[ 089 ] Trisalon</option>
+                <option value="090" style="color: green">[ 090 ] Palashi</option>
+                <option value="091" style="color: green">[ 091 ] Dongalon</option>
+                <option value="092" style="color: green">[ 092 ] Musarbar</option>
+                <option value="093" style="color: green">[ 093 ] Ashinpur</option>
+                <option value="094" style="color: green">[ 094 ] Biharpushkarini</option>
+                <option value="095" style="color: green">[ 095 ] Barojpanta</option>
+                <option value="096" style="color: green">[ 096 ] Jashdighi</option>
+                <option value="097" style="color: green">[ 097 ] Shyampur</option>
+                <option value="098" style="color: green">[ 098 ] Kushmuri</option>
+                <option value="099" style="color: green">[ 099 ] Kherbani</option>
+                <option value="100" style="color: green">[ 100 ] Bhabapur</option>
+                <option value="101" style="color: green">[ 101 ] Khatnagar</option>
+                <option value="102" style="color: green">[ 102 ] Joytbehar</option>
+                <option value="103" style="color: green">[ 103 ] Behar</option>
+                <option value="104" style="color: green">[ 104 ] Parikhapara</option>
+                <option value="105" style="color: green">[ 105 ] Maheshpur</option>
+                <option value="106" style="color: green">[ 106 ] Bagajal</option>
+                <option value="107" style="color: green">[ 107 ] Bhurbandi</option>
+                <option value="108" style="color: green">[ 108 ] Goyalapushkarini</option>
+                <option value="109" style="color: green">[ 109 ] Mangalpur</option>
+                <option value="110" style="color: green">[ 110 ] Jadupur</option>
+                <option value="111" style="color: green">[ 111 ] Betalon</option>
+                <option value="112" style="color: green">[ 112 ] Kunjapur</option>
+                <option value="113" style="color: green">[ 113 ] Bamnia</option>
+                <option value="114" style="color: green">[ 114 ] Bahalalpur</option>
+                <option value="115" style="color: green">[ 115 ] Kisharkona</option>
+                <option value="116" style="color: green">[ 116 ] Baktarpur</option>
+                <option value="117" style="color: green">[ 117 ] Candgram</option>
+                <option value="118" style="color: green">[ 118 ] Aqui</option>
+                <option value="119" style="color: green">[ 119 ] Jhiknara</option>
+                <option value="120" style="color: green">[ 120 ] Narra</option>
+                <option value="121" style="color: green">[ 121 ] Kharsi</option>
+                <option value="122" style="color: green">[ 122 ] Ratra</option>
+                <option value="123" style="color: green">[ 123 ] Salikona</option>
+                <option value="124" style="color: green">[ 124 ] Mamudpur</option>
+                <option value="125" style="color: green">[ 125 ] Boraboykunthapur</option>
+                <option value="126" style="color: green">[ 126 ] Dighalgram</option>
+                <option value="127" style="color: green">[ 127 ] Habishpur</option>
+                <option value="128" style="color: green">[ 128 ] Bagalpur</option>
+                <option value="129" style="color: green">[ 129 ] Kenjera</option>
+                <option value="130" style="color: green">[ 130 ] Chatrakhanda</option>
+                <option value="131" style="color: green">[ 131 ] Nagatentul</option>
+            </select> <!-- End Indas Block Mouza -->
+            <!--Ptrasayer Block Mouza --> <select name="lstMouzaList" id="lstMouzaList1" class="form-control"
+                style="display: none; margin-top: -2rem; margin-left: 30rem;">
+                <option value="-1">---Selection---</option>
+                <option value="001" style="color: green">[ 001 ] Uttar pataspur</option>
+                <option value="002" style="color: green">[ 002 ] Deulpara</option>
+                <option value="003" style="color: green">[ 003 ] Dharimpur</option>
+                <option value="004" style="color: green">[ 004 ] Barasat</option>
+                <option value="005" style="color: green">[ 005 ] Ramsayer</option>
+                <option value="006" style="color: green">[ 006 ] Rampur</option>
+                <option value="007" style="color: green">[ 007 ] Narayanpur</option>
+                <option value="008" style="color: green">[ 008 ] Jaljala</option>
+                <option value="009" style="color: green">[ 009 ] Asanbani</option>
+                <option value="010" style="color: green">[ 010 ] Nahala</option>
+                <option value="011" style="color: green">[ 011 ] Parasia</option>
+                <option value="012" style="color: green">[ 012 ] Dulalpur</option>
+                <option value="013" style="color: green">[ 013 ] Dhagaria</option>
+                <option value="014" style="color: green">[ 014 ] Champabani</option>
+                <option value="015" style="color: green">[ 015 ] Hamirpur</option>
+                <option value="016" style="color: green">[ 016 ] Anandapur</option>
+                <option value="017" style="color: green">[ 017 ] Kendogore</option>
+                <option value="018" style="color: green">[ 018 ] Lalpur</option>
+                <option value="019" style="color: green">[ 019 ] Muktapur</option>
+                <option value="020" style="color: green">[ 020 ] Khosalpur</option>
+                <option value="021" style="color: green">[ 021 ] Nimainagar</option>
+                <option value="022" style="color: green">[ 022 ] Khamardihi</option>
+                <option value="023" style="color: green">[ 023 ] Hadal</option>
+                <option value="024" style="color: green">[ 024 ] Ramnagar</option>
+                <option value="025" style="color: green">[ 025 ] Murapara</option>
+                <option value="026" style="color: green">[ 026 ] Kanthalghata</option>
+                <option value="027" style="color: green">[ 027 ] Narayanpur</option>
+                <option value="028" style="color: green">[ 028 ] Tasuli</option>
+                <option value="029" style="color: green">[ 029 ] Ghoraganga</option>
+                <option value="030" style="color: green">[ 030 ] Uttar Gobindapur</option>
+                <option value="031" style="color: green">[ 031 ] Dhamsa</option>
+                <option value="032" style="color: green">[ 032 ] Sonatikri</option>
+                <option value="033" style="color: green">[ 033 ] Balarampur</option>
+                <option value="034" style="color: green">[ 034 ] Netkhanda</option>
+                <option value="035" style="color: green">[ 035 ] Telsanra</option>
+                <option value="036" style="color: green">[ 036 ] Parulia</option>
+                <option value="037" style="color: green">[ 037 ] Keshabpur</option>
+                <option value="038" style="color: green">[ 038 ] Brindabanpur</option>
+                <option value="039" style="color: green">[ 039 ] Benda</option>
+                <option value="040" style="color: green">[ 040 ] Dayalpur</option>
+                <option value="041" style="color: green">[ 041 ] Antra</option>
+                <option value="042" style="color: green">[ 042 ] Sainbani</option>
+                <option value="043" style="color: green">[ 043 ] Banshdaha</option>
+                <option value="044" style="color: green">[ 044 ] Khayerbani</option>
+                <option value="045" style="color: green">[ 045 ] Dakshin Pataspur</option>
+                <option value="046" style="color: green">[ 046 ] Kantaban</option>
+                <option value="047" style="color: green">[ 047 ] Krishnanagar</option>
+                <option value="048" style="color: green">[ 048 ] Chak Patrasayer</option>
+                <option value="049" style="color: green">[ 049 ] Chak Patrasayer</option>
+                <option value="050" style="color: green">[ 050 ] Bamira</option>
+                <option value="051" style="color: green">[ 051 ] Simurali</option>
+                <option value="052" style="color: green">[ 052 ] Konnagar</option>
+                <option value="053" style="color: green">[ 053 ] Paharpur</option>
+                <option value="054" style="color: green">[ 054 ] Danna</option>
+                <option value="055" style="color: green">[ 055 ] Bagmari</option>
+                <option value="056" style="color: green">[ 056 ] Ratnapur</option>
+                <option value="057" style="color: green">[ 057 ] Sekendarchak</option>
+                <option value="058" style="color: green">[ 058 ] Kantadighi</option>
+                <option value="059" style="color: green">[ 059 ] Belut</option>
+                <option value="060" style="color: green">[ 060 ] Panchpara</option>
+                <option value="061" style="color: green">[ 061 ] Mamudpur</option>
+                <option value="062" style="color: green">[ 062 ] Baikunthapur</option>
+                <option value="063" style="color: green">[ 063 ] Gosaigram</option>
+                <option value="064" style="color: green">[ 064 ] Shalkhara</option>
+                <option value="065" style="color: green">[ 065 ] Bhatia</option>
+                <option value="066" style="color: green">[ 066 ] Bijpur</option>
+                <option value="067" style="color: green">[ 067 ] Chandalbandi</option>
+                <option value="068" style="color: green">[ 068 ] Rasulpur</option>
+                <option value="069" style="color: green">[ 069 ] Katora</option>
+                <option value="070" style="color: green">[ 070 ] Shyamsundarpur</option>
+                <option value="071" style="color: green">[ 071 ] Lalbandh</option>
+                <option value="072" style="color: green">[ 072 ] Purbanaldanga</option>
+                <option value="073" style="color: green">[ 073 ] Udaynagar</option>
+                <option value="074" style="color: green">[ 074 ] Bhutura</option>
+                <option value="075" style="color: green">[ 075 ] Brajanathpur</option>
+                <option value="076" style="color: green">[ 076 ] Biur</option>
+                <option value="077" style="color: green">[ 077 ] Alipur</option>
+                <option value="078" style="color: green">[ 078 ] Betur</option>
+                <option value="079" style="color: green">[ 079 ] Baladnada</option>
+                <option value="080" style="color: green">[ 080 ] Patit Dome Mahal</option>
+                <option value="081" style="color: green">[ 081 ] Chausima</option>
+                <option value="082" style="color: green">[ 082 ] Krishnabati</option>
+                <option value="083" style="color: green">[ 083 ] Radhanagar</option>
+                <option value="084" style="color: green">[ 084 ] Balsipurbapara</option>
+                <option value="085" style="color: green">[ 085 ] Nabakishore</option>
+                <option value="086" style="color: green">[ 086 ] Majkuri</option>
+                <option value="087" style="color: green">[ 087 ] Maheshnandi</option>
+                <option value="088" style="color: green">[ 088 ] Balsi Dakhshinpara</option>
+                <option value="089" style="color: green">[ 089 ] Pashimpara</option>
+                <option value="090" style="color: green">[ 090 ] Sonakara</option>
+                <option value="091" style="color: green">[ 091 ] Moukuchi</option>
+                <option value="092" style="color: green">[ 092 ] Thakurhati</option>
+                <option value="093" style="color: green">[ 093 ] Karajbani</option>
+                <option value="094" style="color: green">[ 094 ] Nabasan</option>
+                <option value="095" style="color: green">[ 095 ] Paschimnaldanga</option>
+                <option value="096" style="color: green">[ 096 ] Jamshola</option>
+                <option value="097" style="color: green">[ 097 ] Churamanipur</option>
+                <option value="098" style="color: green">[ 098 ] Jamkuri</option>
+                <option value="099" style="color: green">[ 099 ] Mallabigha</option>
+                <option value="100" style="color: green">[ 100 ] Padua</option>
+                <option value="101" style="color: green">[ 101 ] Kakatia</option>
+                <option value="102" style="color: green">[ 102 ] Argara</option>
+                <option value="103" style="color: green">[ 103 ] Radhadamodarpur</option>
+                <option value="104" style="color: green">[ 104 ] Dumni</option>
+                <option value="105" style="color: green">[ 105 ] Bir Singha</option>
+                <option value="106" style="color: green">[ 106 ] Binodnagar</option>
+                <option value="107" style="color: green">[ 107 ] Khayerbani</option>
+                <option value="108" style="color: green">[ 108 ] Bankishole</option>
+                <option value="109" style="color: green">[ 109 ] Habib Puskarini</option>
+                <option value="110" style="color: green">[ 110 ] Ekariya</option>
+                <option value="111" style="color: green">[ 111 ] Dharampur</option>
+                <option value="112" style="color: green">[ 112 ] Talsaagra</option>
+                <option value="113" style="color: green">[ 113 ] Salkota</option>
+                <option value="114" style="color: green">[ 114 ] Salna</option>
+                <option value="115" style="color: green">[ 115 ] Nandur</option>
+                <option value="116" style="color: green">[ 116 ] Akharashole</option>
+                <option value="117" style="color: green">[ 117 ] Brikabhanupur</option>
+                <option value="118" style="color: green">[ 118 ] Baraban</option>
+                <option value="119" style="color: green">[ 119 ] Khajurmura</option>
+                <option value="120" style="color: green">[ 120 ] Telisayer</option>
+                <option value="121" style="color: green">[ 121 ] Barajpota</option>
+                <option value="122" style="color: green">[ 122 ] Bagmari</option>
+                <option value="123" style="color: green">[ 123 ] Kantor Bankati</option>
+                <option value="124" style="color: green">[ 124 ] Narangi</option>
+                <option value="125" style="color: green">[ 125 ] Bhaluka</option>
+                <option value="126" style="color: green">[ 126 ] Dhuma</option>
+                <option value="127" style="color: green">[ 127 ] Haripur</option>
+                <option value="128" style="color: green">[ 128 ] Hazra Bandh</option>
+                <option value="129" style="color: green">[ 129 ] Bhubut</option>
+                <option value="130" style="color: green">[ 130 ] Belgaria</option>
+                <option value="131" style="color: green">[ 131 ] Panpuskarini</option>
+                <option value="132" style="color: green">[ 132 ] Tilpur</option>
+                <option value="133" style="color: green">[ 133 ] Chak Kabir</option>
+                <option value="134" style="color: green">[ 134 ] Dakshin Gobindapur</option>
+                <option value="135" style="color: green">[ 135 ] Satgachia</option>
+                <option value="136" style="color: green">[ 136 ] Natungram</option>
+                <option value="137" style="color: green">[ 137 ] Kasthasanga</option>
+                <option value="138" style="color: green">[ 138 ] Jamshola</option>
+                <option value="139" style="color: green">[ 139 ] Nikanjapur</option>
+                <option value="140" style="color: green">[ 140 ] Goaldanga</option>
+                <option value="141" style="color: green">[ 141 ] Khamarbaria</option>
+                <option value="142" style="color: green">[ 142 ] Bagmara</option>
+                <option value="143" style="color: green">[ 143 ] Dihilapur</option>
+                <option value="144" style="color: green">[ 144 ] Kurchi</option>
+                <option value="145" style="color: green">[ 145 ] Bidyanandapur</option>
+                <option value="146" style="color: green">[ 146 ] Mancha</option>
+                <option value="147" style="color: green">[ 147 ] Shankarpur</option>
+                <option value="148" style="color: green">[ 148 ] Kushadwip</option>
+                <option value="149" style="color: green">[ 149 ] Sheorabani</option>
+                <option value="150" style="color: green">[ 150 ] Kushadwip</option>
+                <option value="151" style="color: green">[ 151 ] Hariharpur</option>
+                <option value="152" style="color: green">[ 152 ] Asanbani</option>
+                <option value="153" style="color: green">[ 153 ] Abhirambati</option>
+                <option value="154" style="color: green">[ 154 ] Rameshwarkure</option>
+                <option value="155" style="color: green">[ 155 ] Pandwa</option>
+                <option value="156" style="color: green">[ 156 ] Bandarkonda</option>
+                <option value="157" style="color: green">[ 157 ] Mukundapur</option>
+                <option value="158" style="color: green">[ 158 ] Naricha</option>
+                <option value="159" style="color: green">[ 159 ] Bagdohora</option>
+                <option value="160" style="color: green">[ 160 ] Balarampur</option>
+            </select> <!-- End Patrasayer Block Mouza -->
+
+            <label for="">KHATIAN NO:-</label>
+            <span
+                style="display: flex; margin-top: -1.5rem; margin-left: 22rem; font-size: 1.5rem; font-weight: bold;">RS</span>
+            <span
+                style="display: flex; margin-top: -1.5rem; margin-left: 36rem; font-size: 1.5rem; font-weight: bold;">LR</span>
+            <input type="text" style="width: 10rem;">
+            <input type="text" style="margin-left: 39rem; width: 10rem;">
+            <label for="">PLOT NO :-</label>
+            <span
+                style="display: flex; margin-top: -1.5rem; margin-left: 22rem; font-size: 1.5rem; font-weight: bold;">RS</span>
+            <span
+                style="display: flex; margin-top: -1.5rem; margin-left: 36rem; font-size: 1.5rem; font-weight: bold;">LR</span>
+            <input type="text" style="width: 10rem;">
+            <input type="text" style="margin-left: 39rem; width: 10rem;">
+            <label for=""> TOTAL AREA :-</label>
+            <input type="text">
+            <label for=""> SHARE OWNED:-</label>
+            <input type="text">
+            <label for=""> AREA OWNED:-</label>
+            <input type="text">
+            <label for=""> CLASS:-</label>
+            <select name="" id="" style="margin-left: 25rem; margin-top: -2rem;">
+            
+                    <option selected="selected" value="000"> Select</option>
+                    <option value="914">Agricultural Farm</option>
+                    <option value="012">Bagan</option>
+                    <option value="080">Bahal</option>
+                    <option value="004">Baide</option>
+                    <option value="038">Baluchar</option>
+                    <option value="091">Banshbagan</option>
+                    <option value="094">Bari</option>
+                    <option value="008">Bastu</option>
+                    <option value="042">Bazar</option>
+                    <option value="915">Bhagar</option>
+                    <option value="022">Bil</option>
+                    <option value="909">Cinema Hall</option>
+                    <option value="910">Club</option>
+                    <option value="929">Coaliery khadan</option>
+                    <option value="922">College</option>
+                    <option value="904">Commercial</option>
+                    <option value="920">Commercial (Small)</option>
+                    <option value="007">Danga</option>
+                    <option value="032">Debasthan</option>
+                    <option value="156">Dighi</option>
+                    <option value="014">Doba</option>
+                    <option value="003">Doe</option>
+                    <option value="902">Dokan</option>
+                    <option value="932">Eco TourismResort/TourismPark</option>
+                    <option value="901">Farm</option>
+                    <option value="925">Food park</option>
+                    <option value="016">Gar Layekpatit</option>
+                    <option value="926">Garment Park</option>
+                    <option value="037">Girja</option>
+                    <option value="158">Gobargara</option>
+                    <option value="085">Gochar</option>
+                    <option value="923">Godown</option>
+                    <option value="098">Gorsthan</option>
+                    <option value="913">Gottery Farm</option>
+                    <option value="911">Industrial</option>
+                    <option value="927">Industrial Estate</option>
+                    <option value="924">Industrial Park</option>
+                    <option value="103">Itkhola</option>
+                    <option value="117">Jala</option>
+                    <option value="019">Jangal</option>
+                    <option value="031">Kabarsthan</option>
+                    <option value="005">Kanali</option>
+                    <option value="907">Karkhana</option>
+                    <option value="908">Katgola</option>
+                    <option value="017">Khal</option>
+                    <option value="010">Khamar</option>
+                    <option value="113">Mana</option>
+                    <option value="086">Mandir</option>
+                    <option value="033">Masjid</option>
+                    <option value="026">Nala</option>
+                    <option value="916">Office</option>
+                    <option value="101">Pahar</option>
+                    <option value="043">Pan  Baraj</option>
+                    <option value="025">Path</option>
+                    <option value="109">Patit</option>
+                    <option value="029">Payastibhumi</option>
+                    <option value="906">Petrol Pump</option>
+                    <option value="921">Pipeline</option>
+                    <option value="034">Pirasthan</option>
+                    <option value="912">Poultry Farm</option>
+                    <option value="013">Pukur</option>
+                    <option value="015">Pukurpar</option>
+                    <option value="071">Railline</option>
+                    <option value="024">Rasta</option>
+                    <option value="933">Resort</option>
+                    <option value="905">Rice Mill</option>
+                    <option value="900">Sallow Nalkup/Submarshal</option>
+                    <option value="928">Sand khadan</option>
+                    <option value="023">Sardoba</option>
+                    <option value="040">School</option>
+                    <option value="903">Semi Commercial</option>
+                    <option value="001">Shali</option>
+                    <option value="028">Sikastibhumi</option>
+                    <option value="006">Sole</option>
+                    <option value="930">Stare/National Highways</option>
+                    <option value="002">Suna</option>
+                    <option value="030">Swashan</option>
+                    <option value="011">Tara</option>
+                    <option value="155">Udbastu</option>
+                    <option value="009">Vitti/Vitta</option>
+                    <option value="931">Ware House</option>
+                    <option value="917">Water Resurviour</option>
+                
+                
+            </select>
+        
+
+
+
+
+
+        </div>
+
+        <button>Submit</button>
+
+
+
+        
+
+
+
+    </form>
+
+
+    <script src="/javascripts/Land.js"></script>
+    
+</body>
+</html>

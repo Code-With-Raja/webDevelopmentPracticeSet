@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylessheets/form.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="container" style="width: 150rem; height: 200rem; border: .2rem solid black;">
+        <h1 class="mt-5 text-3xl" style="font-weight: bolder; font-size: 2.5rem;">Application For Mutation </h1>
+        <h1 class="ben text-3xl mt-2" style="font-weight: bolder; font-size: 2.5rem; margin-top: 2rem;"> মিউটেশন জন্য় আবেদন </h1>
+
+        <h2 class="text-2xl " style="font-weight: bold; font-size: 2rem;"> (A) Particulars Of Transferer</h2>
+
+        <% users.forEach(function(user){%>
+            <div class="applicantDetails flex gap-3 flex-wrap">
+                <div class="name text-xl mt-10 ml-10" style=" font-weight: bold; font-size: 1.5rem;"> Name:- <%= user.name %>
+                </div>
+                <div class="Gname text-zinc-800  " style="font-weight: bold; margin-left: -20rem; margin-top: 5rem; font-size: 1.5rem;">
+                    S/O,W/O :- <%= user.Gname %>
+                </div>
+                <div class="address text-zinc-800" style="font-weight: bold; margin-left: -22rem; margin-top: 8rem; font-size: 1.5rem;">
+                    Postal Address:- <%= user.address %>
+                </div>
+            </div>
+            <%})%>
+
+            <h1  class="text-2xl " style="font-weight: bold; font-size: 2rem; margin-left: -71rem; margin-top: 5rem;"> (B) DETAILS OF TRANSFER</h1>
+            <% users.forEach(function(user){%>
+            <div class="detailsTransfer ">
+                <div class="flex mt-5 ml-5" style="font-size: 1.5rem; font-weight: bold;"> (1) MODE OF TRANSFER:- <%= user.mode %>  </div>
+               
+                <div class="flex mt-5 ml-5" style="font-size: 1.5rem; font-weight: bold;"> (2)REGISTERED DEED NO. AND DATE :- <%= user.deedNo %> </div>
+               
+                <div class="flex mt-5 ml-5" style="font-size: 1.5rem; font-weight: bold;">(3) WHETHER TRANSFERRED DIRECTLY FROM THE RECORDED RAIYAT :- <%= user.raiyat %> </div>
+              
+            </div>
+            <%})%>
+
+
+
+
+
+
+
+    </div>
+
+
+    <script src="form.js"> </script>
+
+</body>
+
+</html>

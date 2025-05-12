@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+    </style>
+    <link rel="stylesheet" href="/stylesheets/edit.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+       <a class="container" href="/">Go to Home Page</a>  
+       <a class="container1" href="/index1">Go to Create Page</a> 
+
+        <div class="create"> Update</div>
+        <form action="/update/<%= user._id %> " method="post"> 
+            <input type="date" placeholder="Date here" class="inputDate" name="date" value="<%= user.date%>">
+            <input type="text" placeholder="Name Here" class="inputName" name="name" value="<%= user.name%>">
+            <input type="text" placeholder="Address Here" class="inputAddress" name="address" value="<%= user.address%>">
+            <input type="text" placeholder="Debit" class="inputDebit" name="debit" value="<%= user.debit%>">
+            <input type="text" placeholder="Credit" class="inputCredit" name="credit" value="<%= user.credit%>">
+            <select name="select" class="option" value="<%= user.select%>" >
+                <option value=""> </option>
+                <option value="Paid">Paid</option>
+                <option value="Due">Due</option>
+            </select>
+
+            <input type="submit" value="Update" class="submit">
+
+        </form>
+
+
+    </div>
+
+
+    <script src="/Javascripts/edit.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="div">
+        I am a boy
+    </div>
+    
+
+    <script>
+        //  For direct element call and add class,HTML text, replace element.  
+        // let div = document.createElement('div')
+        // div.className = "raja"
+        // div.innerHTML = "<div> Hello</div>"
+        // document.body.replaceWith(div)
+
+
+        // for input element before/after  main element.  
+
+        let div = document.getElementById('div')
+        div.insertAdjacentHTML("beforebegin",'<p> Prabaht Kumar Das</>'); 
+        div.insertAdjacentHTML("afterend",'<p> By</>');
+
+
+       
+     
+
+    </script>
+</body>
+</html>

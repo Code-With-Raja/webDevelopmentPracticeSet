@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ledger Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/stylessheets/index.css">
+</head>
+<body>
+
+  
+ 
+    <div id="company"> Raja Das Pvt. Ltd.</div>
+    <form action="/create" method="post" id="input-form">
+    <div class="container">
+    <div id="entry-type">
+        <label for="" id="type"> Entry Type</label>
+         
+        <select name="" id="dropdown">
+            <option value="text">Saler</option>
+            <option value="text">Buyer</option> 
+
+
+        </select>
+     </div>
+
+     <div id="invoice-no">
+        <label for="" id="invoice"> Invoice No.</label>
+        <input type="number" name="invoice" id="inv" >
+     </div>
+
+     <div id="saler-buyer">
+        <label for="" id="s-b"> Saler/Buyer</label>
+        <input type="text"  placeholder="Name here" minlength="4" maxlength="20" id="s-b1" oninput="text()"> 
+     </div>
+     <div id="item">
+        <label for="" id="item-name">Items</label>
+        <input type="text" name="item" id="item1">
+         
+     </div>
+     <div id="qty">
+        <label for="" id="qty1">Qty.</label>
+        <input type="text" name="qty" id="qty2">
+     </div>
+     <div id="rate">
+        <label for="" id="rate1"> Rate</label>
+        <input type="text" name="rate" id="rate2">
+     </div>
+     <div id="total">
+      <label for="" id="total1"> Total</label>
+      <input type="text" name="total" id="total2">
+   </div>
+     <input type="submit" id="btn" value="Submit"> 
+     <span id="last-entry">Last Entry <input type="number" id="last-entry1" readonly /></span>
+
+     <p id="total3" ></p>
+     <input type="button" value="Calculate Total" id="cal" onclick=" calculateTotal()">
+
+    </div>
+
+   </form>
+    
+
+ 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/javasripts/index.js"></script>
+    
+</body>
+</html>

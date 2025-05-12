@@ -1,0 +1,147 @@
+body{
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(143, 137, 137);
+}
+.main-container{
+   
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.mainpage{
+    margin-top: 8rem;
+    margin-left: 8rem;
+    background-color: rgb(104, 102, 102);
+    width: 35rem;
+    height: 40vh;
+    border-radius: 1rem;
+     
+}
+
+.particulars{
+    font-size: 2rem;
+    color: rgb(223, 140, 45);
+    margin-left: 12rem;
+    font-weight: bolder;
+}
+.date{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 15rem;
+   
+    font-weight: bold;
+
+}
+.date div{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: -2rem;
+    margin-left: 5rem;   
+    font-weight: bold;
+
+}
+.name{
+    font-size: 1.5rem;
+    color: rgb(241, 57, 226);
+    margin-left: 3rem;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+    
+
+}
+.address{
+    font-size: 1.5rem;
+    color: rgb(241, 57, 226);
+    margin-left: 22rem;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+  
+    
+
+}
+.debit{
+    font-size: 1.2rem;
+    color: rgb(216, 182, 28);
+    margin-left: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+
+}
+.debit div{
+    font-size: 1rem;
+    color: white;
+    margin-top: 2rem;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+
+}
+.credit{
+    font-size: 1.2rem;
+    color: rgb(216, 182, 28);
+    margin-left: 13rem;
+    margin-top: 5rem;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+
+}
+.credit div{
+    font-size: 1rem;
+    color: white;
+   
+    margin-top: 2rem;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+}
+.status{
+    font-size: 1.2rem;
+    color: rgb(216, 182, 28);
+    margin-left: 25rem;
+    margin-top: 5rem;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+
+}
+.status div{
+    font-size: 1rem;
+    color: white;
+    margin-top: 2rem;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+
+}
+
+.edit-delete{
+    font-size: 1rem;
+    color: white;
+    margin-left: 3rem;
+    margin-top: 12rem;
+    display: flex;
+    position: absolute;
+   
+    gap: 20rem;
+    font-weight: bold;
+
+}
+
+.notYet{
+    font-size: 1.5rem;
+    color: antiquewhite;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+
+
+text-xl text-zinc-500 mt-5

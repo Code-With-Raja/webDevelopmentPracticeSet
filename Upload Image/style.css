@@ -1,0 +1,17 @@
+.upload-container {
+    padding: 20px;
+}
+
+#image-preview img,
+#video-preview video {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}

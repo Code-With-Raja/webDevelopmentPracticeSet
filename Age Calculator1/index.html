@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Age Calculator</title>
+</head>
+<body>
+
+    <div class="container flex relative bg-white-800 w-[2000rem] h-screen items-center justify-center">
+
+        <div class="calculator flex absolute bg-blue-500 w-[40rem] h-[20rem] shadow-xl rounded-md">
+            <h1 class="text-3xl flex absolute ml-[13rem] font-bold ">Age Calculator</h1>
+
+            <label for="" class="flex absolute font-bold text-2xl mt-[7rem] ml-[10rem] ">Input Your Date Of Birth</label>
+            <input type="date" id="dob" name="Birthday" class="flex absolute mt-[10rem] ml-[10rem] w-[15rem] h-[2rem]">
+
+
+            <button id="btn" class="bg-zinc-500 flex absolute w-[8rem] h-[2rem] items-center justify-center mt-[13rem] ml-[13rem] rounded-md shadow-xl">Calculate Age</button>
+
+            <p  id="calculate" class="text-xl mt-[15rem] ml-[10rem]">Your Current Are is 0 Years</p>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>

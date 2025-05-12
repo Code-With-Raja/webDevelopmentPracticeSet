@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+#company {
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 20%;
+
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 102, 222);
+    color: white;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px ;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .90);
+    font-weight: bolder;
+    
+
+}
+.container {
+    margin-left: 500px;
+    margin-top: 50px;
+    background-color: cadetblue;
+    width: 800px;
+    height: 750px; 
+    border-radius: 10px; 
+    padding: 20px;  
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, .30); 
+
+}
+
+select {
+    width: 250px;
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, .30);
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+
+}
+input {
+    width: 250px;
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, .30);
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+
+}
+
+#entry-type {
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+#type {
+    background-color: yellowgreen;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(20, 30, 50, .70);
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+  
+    position: relative;
+}
+#invoice-no {
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+#invoice {
+    background-color: rgb(222, 178, 57);
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(20, 30, 50, .70);
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+#saler-buyer {
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+#s-b {
+    background-color: rgb(229, 81, 192);
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(20, 30, 50, .70);
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+#item {
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+#item-name {
+    background-color: rgb(80, 188, 231);
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(20, 30, 50, .70);
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+#qty {
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+#qty1 {
+    background-color: rgb(229, 75, 152);
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(20, 30, 50, .70);
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+
+#rate {
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+#rate1 {
+    background-color: rgb(31, 108, 164);
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(20, 30, 50, .70);
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+#total {
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+#total1 {
+    background-color: rgb(31, 108, 164);
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(20, 30, 50, .70);
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+ 
+ 
+ 
+
+#btn {
+    margin-top: 50px;
+    margin-left: 40%;
+    background-color: aqua;
+    color: rgb(243, 33, 33);
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .70);
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+
+}
+#btn:hover {
+    background-color: rgb(133, 230, 230);
+}
+
+#last-entry {
+    display: flex;
+    margin-top: -600px;
+    margin-left: 560px;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: blueviolet;
+    
+
+
+}
+#last-entry input {
+    width: 80px;
+    margin-top: -5px;
+    gap: 20px;
+    height: 30px;
+    display: flex;
+}
+
+#total3{
+    margin-left: 38rem;
+    margin-top: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#cal{
+    display: flex;
+    margin-left: 36rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    width: 12rem;
+    cursor: pointer;
+    background-color: blue;
+}
+
+ 
