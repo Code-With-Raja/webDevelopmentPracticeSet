@@ -44,7 +44,7 @@ function processUserData(user) {
 }
 
 const user = { name: 'Raja' };
-processUserData(user); // Logs: User Alice does not have an email address
+processUserData(user); // Logs: User Raja does not have an email address
 
 
 
